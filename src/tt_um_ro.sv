@@ -3,7 +3,8 @@ module tt_um_ro (
     output logic osc_out
 );
 
-    (* keep = "true", dont_touch = "true" *) logic a, b, c;
+    logic a, b, c;
+    // (* keep = "true", dont_touch = "true" *) logic a, b, c;
     // wire startup = 1'b0;  // Constant 0
 	
 	nand X1 (a, c ,enable);

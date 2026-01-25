@@ -17,7 +17,7 @@ module tt_um_ro (
     
 );
 
-	ring_oscillator ro1(
+	tt_um_ro ro1(
 	.enable(ui_in[0]),
 	.osc_out(uo_out[0])
 	);

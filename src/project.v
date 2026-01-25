@@ -19,7 +19,7 @@ module tt_um_ro (
 
 	ring_oscillator ro1(
 	.enable(ui_in[0]),
-	.osc_out(uo_out[0]
+	.osc_out(uo_out[0])
 	);
 	
   // All output pins must be assigned. If not used, assign to 0.

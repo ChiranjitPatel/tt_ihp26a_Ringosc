@@ -1,4 +1,4 @@
-module tt_um_ro (
+module rinosc (
 	input enable,
     output osc_out
 );

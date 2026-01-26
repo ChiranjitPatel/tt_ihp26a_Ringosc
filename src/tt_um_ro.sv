@@ -1,6 +1,6 @@
 module tt_um_ro (
-	input logic enable,
-    output logic osc_out
+	input enable,
+    output osc_out
 );
 
     logic a, b, c;

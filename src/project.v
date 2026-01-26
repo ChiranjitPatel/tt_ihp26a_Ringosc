@@ -14,7 +14,7 @@ module tt_um_ro (
     input  wire       rst_n,    // reset_n - low to reset
     output wire [7:0] uio_out,  // IOs: Output path
     output wire [7:0] uio_oe   // IOs: Enable path (active high: 0=input, 1=output)
-    
+   
 );
 
 	tt_um_ro ro1(

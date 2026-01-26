@@ -1,4 +1,4 @@
-module rinosc (
+module ringosc (
 	input enable,
     output osc_out
 );

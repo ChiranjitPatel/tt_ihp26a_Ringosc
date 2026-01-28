@@ -3,8 +3,8 @@ module ringosc (
     output osc_out
 );
 
-    // logic a, b, c;
-    (* keep = "true", dont_touch = "true" *) logic a, b, c;
+    (* keep_hierarchy *)  logic a, b, c;
+    // (* keep = "true", dont_touch = "true" *) logic a, b, c;
     // wire startup = 1'b0;  // Constant 0
 	
 	nand X1 (a, c ,enable);

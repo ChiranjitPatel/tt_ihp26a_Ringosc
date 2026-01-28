@@ -3,7 +3,9 @@ module ringosc (
     output osc_out
 );
 
-    (* keep_hierarchy *)  logic a, b, c;
+    /* verilator lint_off UNOPTFLAT */
+    (* keep, keep_hierarchy *) wire a, b, c;
+    /* verilator lint_on UNOPTFLAT */
     // (* keep = "true", dont_touch = "true" *) logic a, b, c;
     // wire startup = 1'b0;  // Constant 0
 	

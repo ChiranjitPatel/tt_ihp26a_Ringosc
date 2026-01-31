@@ -1,12 +1,13 @@
-(* blackbox *)
 module ringosc (
 	input enable,
     output osc_out
 );
-
+    
     /* verilator lint_off UNOPTFLAT */
+	(* keep, allow_combinational_loops *)
     (* keep, keep_hierarchy *) wire a, b, c;
     /* verilator lint_on UNOPTFLAT */
+	
     // (* keep = "true", dont_touch = "true" *) logic a, b, c;
     // wire startup = 1'b0;  // Constant 0
 	

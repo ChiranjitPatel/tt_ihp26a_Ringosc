@@ -1,3 +1,4 @@
+(* blackbox *)
 module ringosc (
 	input enable,
     output osc_out

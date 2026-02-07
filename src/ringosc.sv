@@ -12,7 +12,7 @@ module ringosc (
     // wire startup = 1'b0;  // Constant 0
 	
 	//nand X1 (a, c ,enable);
-	assign a = !(c & enable)
+	assign a = !(c & enable);
     // assign #2 a = startup ? 1'b0 : ~c;
     // assign #2 a = ~c;
     assign b = ~a;
